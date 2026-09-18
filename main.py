@@ -37,5 +37,5 @@ def check_releases():
                             msg = f"🎬 *Müjde! İzleme Listendeki Film Bugün Vizyonda!*\n\n🍿 *{title}*\n📅 Bugün Türkiye sinemalarında gösterime girdi. İyi seyirler!"
                             send_telegram(msg)
 
-if__name__ == "__main__":
+if __name__ == "__main__":
     check_releases()
